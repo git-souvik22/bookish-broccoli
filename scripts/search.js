@@ -54,14 +54,14 @@ function displayRooms(rooms) {
               <p>Rate: ${room.rate}</p>
               <div class="location-detail">
               <div class="location-action">
-              <p><img src="/images/icons8-location-50.png" alt="">${room.location}</p>
+              <p><img src="./images/icons8-location-50.png" alt="">${room.location}</p>
               <button onclick="viewRoomDetails('${room.id}')">View Details</button>
               </div>
               <div class="detail">
               <ul>
-              <li><img src="/images/icons8-bed-50.png" alt=""> ${room.beds}</li>
-              <li><img src="/images/icons8-bath-50.png" alt="">${room.bathrooms}</li>
-              <li><img src="/images/icons8-car-50.png" alt="">2 parking</li>
+              <li><img src="./images/icons8-bed-50.png" alt=""> ${room.beds}</li>
+              <li><img src="./images/icons8-bath-50.png" alt="">${room.bathrooms}</li>
+              <li><img src="./images/icons8-car-50.png" alt="">2 parking</li>
               </ul>
               </div>
               </div>
